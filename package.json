@@ -15,7 +15,6 @@
 		"node": ">=10"
 	},
 	"scripts": {
-		"test": "tsc && xo && ava",
 		"prepare": "tsc",
 		"dev": "tsc && node dev/index.js"
 	},
