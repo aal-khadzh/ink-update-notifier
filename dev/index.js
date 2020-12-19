@@ -1,1 +1,1 @@
-require('import-jsx')('./comp');
+require('import-jsx')('./component');

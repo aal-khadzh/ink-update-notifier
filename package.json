@@ -1,9 +1,9 @@
 {
-	"name": "ink-update_notifier",
-	"version": "1.0.0",
+	"name": "ink-update-notifier",
+	"version": "0.0.1",
 	"description": "UpdateNotifier component for Ink",
 	"license": "MIT",
-	"repository": "aal-khadzh/ink-update_notifier",
+	"repository": "aal-khadzh/ink-update-notifier",
 	"author": {
 		"name": "Antuan Al-Khadzh",
 		"email": "antuanalkhadzh@gmail.com",
@@ -40,6 +40,7 @@
 		"@babel/preset-react": "^7.10.1",
 		"@sindresorhus/tsconfig": "^0.7.0",
 		"@types/react": "^16.9.46",
+		"@types/update-notifier": "^5.0.0",
 		"@vdemedes/prettier-config": "^1.0.0",
 		"ava": "^3.9.0",
 		"delay": "^4.1.0",

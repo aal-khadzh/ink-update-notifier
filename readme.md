@@ -1,9 +1,9 @@
-# ink-update_notifier
+# ink-update-notifier
 
 ## Install
 
 ```
-$ npm install ink-update_notifier
+$ npm install ink-update-notifier
 ```
 
 ## Usage
@@ -11,9 +11,15 @@ $ npm install ink-update_notifier
 ```jsx
 import React from 'react';
 import {render} from 'ink';
-import UpdateNotifier from 'ink-update_notifier';
+import UpdateNotifier from 'ink-update-notifier';
 
-const packageJSON = './package.json';
+const packageJSON = require('./package.json');
 
 render(<UpdateNotifier pkg={packageJSON} />);
 ```
+
+## Props
+
+### type
+
+Type: `object`

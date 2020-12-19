@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {FC} from 'react';
 import {Box, Text} from 'ink';
-const updateNotifier = require('update-notifier');
+import updateNotifier = require('update-notifier');
 
 interface PackageJSON {
 	name: string;
@@ -20,11 +20,12 @@ interface Props {
  */
 const UpdateNotifier: FC<Props> = ({pkg}) => {
 	const update = updateNotifier({pkg, updateCheckInterval: 0}).update;
+	if (!update) {
+		return null;
+	}
 	return (
 		<Box flexDirection="column" borderStyle="round" borderColor="green">
-			{update && (
-				<Text>{`Update available: ${update.current} => ${update.latest}`}</Text>
-			)}
+			<Text>{`Update available: ${update.current} => ${update.latest}`}</Text>
 		</Box>
 	);
 };
