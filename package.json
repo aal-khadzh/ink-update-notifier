@@ -1,6 +1,6 @@
 {
 	"name": "ink-update-notifier",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "UpdateNotifier component for Ink",
 	"license": "MIT",
 	"repository": "aal-khadzh/ink-update-notifier",
